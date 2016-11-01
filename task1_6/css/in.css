@@ -1,0 +1,86 @@
+body{
+	background: #938e8c;
+}
+#container{
+	background: #fff;
+	width:980px;
+	height: 1386px;
+	margin: auto;
+}
+#one{
+	width: 892px;
+	margin: auto;
+	height: auto;
+}
+#one1{
+	width: 110px;
+	height: 61px;
+	background: #d45d5c;
+}
+span:nth-child(1){
+	color: #fff;
+	font-size: 12px;
+	position: absolute;
+	top: 45px;
+	margin: 5px;
+}
+#one2{
+	color: #d45d5c;
+	font-size: 12px;
+	text-align: right;
+	position: relative;
+	top:-17px;
+	border-bottom: 2px solid #938e8c;
+}
+#one3{
+	margin: 13px 0;
+	height: 301px;
+}
+#one31{
+	height: 301px;
+	width: 641px;
+}
+#one311{
+	height: 301px;
+	width: 191px;
+	background-color: #75b86b;
+	opacity: 0.4;
+	position: absolute;
+	float: left;
+	z-index: 100;
+	top: 102px;
+}
+#one312{
+	height: 301px;
+	width: 191px;
+	background-color: #d45d5c;
+	opacity: 0.4;
+	position: absolute;
+	float: left;
+	z-index: 100;
+	top: 102px;
+	left: 680px;
+}
+#one32{
+	width: 203px;
+	border-top: 2px solid #cc8091;
+	float: right;
+	position: relative;
+	top: -301px;
+}
+#one32 h2{
+	text-decoration: underline ;
+	margin: 0;
+	font-size: 20px;
+}
+#one32>p{
+	color:#676767;
+	font-family: 'STKaiti';
+	margin: 0px;
+	font-size: 12px;
+}
+#one32 .num{
+	font-size: 116px;
+	color: #75b86b;
+	font-family: 'Microsoft YaHei';
+}
