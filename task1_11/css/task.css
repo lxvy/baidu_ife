@@ -1,0 +1,51 @@
+body
+{
+    font-family: '微软雅黑';
+}
+*
+{
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+a
+{
+    -webkit-tap-highlight-color: transparent;
+}
+a:active,
+a:visited,
+a:hover
+{
+    color: #333;
+}
+
+.top-bar
+{
+    font-size: 1.75rem;
+    line-height: 1.825rem;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 4.825rem;
+
+    color: #fff;
+    background: #91d4da;
+}
+.top-bar a
+{
+    line-height: 1.825rem;
+
+    position: absolute;
+    left: 0;
+
+    padding-left: 1.125rem;
+
+    color: #fff;
+    background: url(img/back.png) no-repeat .5rem .55rem/.45rem .77rem;
+}
+.top-bar h1
+{
+    text-align: center;
+}
